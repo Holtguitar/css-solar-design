@@ -47,14 +47,14 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  animation: rotate 20s infinite linear;
+  animation: rotate 12s infinite linear;
 }
 
 .planet-container {
   position: absolute;
   width: 60px;
   height: 60px;
-  animation: correct 20s infinite linear;
+  animation: correct 12s infinite linear;
 }
 
 #second-planet-container {
@@ -73,15 +73,15 @@ body {
 }
 
 #first-planet-index {
-  animation: hideFirstPlanet 20s infinite;
+  animation: hideFirstPlanet 12s infinite;
 }
 
 #second-planet-index {
-  animation: hideSecondPlanet 20s infinite;
+  animation: hideSecondPlanet 12s infinite;
 }
 
 #third-planet-index {
-  animation: hideThirdPlanet 20s infinite;
+  animation: hideThirdPlanet 12s infinite;
 }
 
 @keyframes rotate {
@@ -164,28 +164,28 @@ body {
 }
 
 #first-planet {
-  animation: firstPlanetRender 20s infinite linear;
+  animation: firstPlanetRender 12s infinite linear;
 }
 
 #first-planet:after {
-  animation: firstPlanetRotator 20s infinite linear;
+  animation: firstPlanetRotator 12s infinite linear;
 }
 
 #second-planet {
-  animation: secondPlanetRender 20s infinite linear;
+  animation: secondPlanetRender 12s infinite linear;
 }
 
 #second-planet:after {
-  animation: secondPlanetRotator 20s infinite linear;
+  animation: secondPlanetRotator 12s infinite linear;
 }
 
 #third-planet {
   /* background-color: rgb(128, 26, 0); */
-  animation: thirdPlanetRender 20s infinite linear;
+  animation: thirdPlanetRender 12s infinite linear;
 }
 
 #third-planet:after {
-  animation: thirdPlanetRotator 20s infinite linear;
+  animation: thirdPlanetRotator 12s infinite linear;
 }
 
 @keyframes firstPlanetRender {
