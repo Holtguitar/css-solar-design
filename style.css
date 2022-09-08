@@ -5,7 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("images/stars.jpeg");
+  /* background-image: url("images/stars.jpeg"); */
+  background-color: rgb(33, 33, 33);
 }
 
 .sun {
